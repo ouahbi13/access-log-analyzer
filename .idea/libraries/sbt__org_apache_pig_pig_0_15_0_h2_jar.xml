@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.pig:pig:0.15.0:h2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pig/pig/0.15.0/pig-0.15.0-h2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Amazon.com Inc. Java 11.0.13)
+[debug] Load.defaultLoad until apply took 21212.996734ms
+[debug]           Load.loadUnit: plugins took 4279.887701ms
+[debug]           Load.loadUnit: defsScala took 21.128512ms
+[debug] [Loading] Scanning directory /home/dba/IdeaProjects/AccesLogAnalyzer/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dba/IdeaProjects/AccesLogAnalyzer/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 816.243591 ms
+[debug]               Load.resolveProject(accesloganalyzer-build) took 1681.750599ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id accesloganalyzer-build, base: /home/dba/IdeaProjects/AccesLogAnalyzer/project, plugins: List(<none>))) took 4013.195761ms
+[debug] [Loading] Done in /home/dba/IdeaProjects/AccesLogAnalyzer/project, returning: (accesloganalyzer-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4848.590382ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.11275ms
+[debug]         Load.loadUnit(file:/home/dba/IdeaProjects/AccesLogAnalyzer/project/, ...) took 9357.109098ms
+[debug]       Load.apply: load took 13130.345096ms
+[debug]       Load.apply: resolveProjects took 94.090049ms
+[debug]       Load.apply: finalTransforms took 1727.548022ms
+[debug]       Load.apply: config.delegates took 222.940557ms
+[debug]       Load.apply: Def.make(settings)... took 9848.157562ms
+[debug]       Load.apply: structureIndex took 2040.562568ms
+[debug]       Load.apply: mkStreams took 16.206212ms
+[info] loading project definition from /home/dba/IdeaProjects/AccesLogAnalyzer/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 46804.336598ms
+[debug]     Load.loadUnit: defsScala took 0.031263ms
+[debug] [Loading] Scanning directory /home/dba/IdeaProjects/AccesLogAnalyzer
+[debug]       Load.loadUnit: mkEval took 227.158111ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.21102 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 24.474524ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/dba/IdeaProjects/AccesLogAnalyzer, plugins: List(<none>))) took 68.534951ms
+[debug] [Loading] Done in /home/dba/IdeaProjects/AccesLogAnalyzer, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35437.970606ms
+[debug]     Load.loadUnit: cleanEvalClasses took 71.391811ms
+[debug]   Load.loadUnit(file:/home/dba/IdeaProjects/AccesLogAnalyzer/, ...) took 82336.862025ms
+[debug] Load.apply: load took 83058.143394ms
+[debug] Load.apply: resolveProjects took 2.366454ms
+[debug] Load.apply: finalTransforms took 248.280604ms
+[debug] Load.apply: config.delegates took 1.847842ms
+[debug] Load.apply: Def.make(settings)... took 1753.8396ms
+[debug] Load.apply: structureIndex took 518.465689ms
+[debug] Load.apply: mkStreams took 0.00505ms
+[info] set current project to AccesLogAnalyzer (in build file:/home/dba/IdeaProjects/AccesLogAnalyzer/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/dba/.sbt/1.0/server/a4bebbaee687d1f85c8d/sock
+[debug] Writing bsp connection file
+[info] started sbt server
