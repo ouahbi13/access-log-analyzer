@@ -9,9 +9,9 @@ In this project, we analyze Apache Server Access Logs using Spark SQL Structured
 Using Kibana UI for visualization we get the following results:
 <div align="center">
   <h3>Visited websites counts :</h3>
-  <img width="500px" src="images/visited-counts.png">
+  <img width="400px" src="images/visited-counts.png">
   <h3>Status code counts :</h3>
-  <img width="500px" src="images/status-counts.png">
+  <img width="400px" src="images/status-counts.png">
 </div>
 <br>
 Side Note:
